@@ -16,7 +16,7 @@
 
 package org.axonframework.samples.trader.tradeengine.command;
 
-import org.axonframework.commandhandling.annotation.CommandHandler;
+import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.repository.Repository;
 import org.axonframework.samples.trader.api.orders.trades.CreateBuyOrderCommand;
 import org.axonframework.samples.trader.api.orders.trades.CreateOrderBookCommand;

@@ -16,9 +16,9 @@
 
 package org.axonframework.samples.trader.users.command;
 
-import org.axonframework.eventhandling.annotation.EventHandler;
-import org.axonframework.eventsourcing.annotation.AbstractAnnotatedAggregateRoot;
-import org.axonframework.eventsourcing.annotation.AggregateIdentifier;
+import org.axonframework.eventhandling.EventHandler;
+import org.axonframework.eventsourcing.AbstractAnnotatedAggregateRoot;
+import org.axonframework.eventsourcing.AggregateIdentifier;
 import org.axonframework.samples.trader.api.users.UserAuthenticatedEvent;
 import org.axonframework.samples.trader.api.users.UserCreatedEvent;
 import org.axonframework.samples.trader.api.users.UserId;

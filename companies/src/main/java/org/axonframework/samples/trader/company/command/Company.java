@@ -16,9 +16,9 @@
 
 package org.axonframework.samples.trader.company.command;
 
-import org.axonframework.eventhandling.annotation.EventHandler;
-import org.axonframework.eventsourcing.annotation.AbstractAnnotatedAggregateRoot;
-import org.axonframework.eventsourcing.annotation.AggregateIdentifier;
+import org.axonframework.eventhandling.EventHandler;
+import org.axonframework.eventsourcing.AbstractAnnotatedAggregateRoot;
+import org.axonframework.eventsourcing.AggregateIdentifier;
 import org.axonframework.samples.trader.api.company.CompanyCreatedEvent;
 import org.axonframework.samples.trader.api.company.CompanyId;
 import org.axonframework.samples.trader.api.company.OrderBookAddedToCompanyEvent;
